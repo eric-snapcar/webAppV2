@@ -7,7 +7,6 @@
 /* #searchBar */
 #searchBar{
   height: 35px;
-  width: 500px;
   display: block;
   margin: 0 auto;
   border: 0px;
@@ -21,11 +20,28 @@
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
-#searchBar:focus,#searchBar:hover  {
-    box-shadow: 0 3px 11px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
-    outline: none;
+/* .shadow */
+.view {
+  width: 500px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
-#searchBar::placeholder{
-    color: rgba(0,0,0,0.38);
+/* .shadow focus hover */
+#searchBar:focus,#searchBar:hover{
+  box-shadow: 0 3px 11px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+  outline: none;
 }
-/* #bookingCell */
+
+
+/*
+border: 1px solid;
+border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+border-radius: 4px;
+bottom: -1px;
+content: '';
+left: -1px;
+pointer-events: none;
+position: absolute;
+right: -1px;
+top: -1px;
+*/
