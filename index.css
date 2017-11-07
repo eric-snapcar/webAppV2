@@ -1,4 +1,7 @@
 /* #logo */
+body{
+  margin: 0;
+}
 #logo{
   padding-top: 112px;
   display: block;
@@ -33,10 +36,19 @@
   outline: none;
 }
 /* .shadow focus hover */
+#buttonWrapper {
+  display: inline-block;
+  right:0;
+  font-size: 0;
+  position: absolute;
+  padding: 9px;
+}
+#buttonWrapper , img {
+  margin-left:4px;
+    cursor: pointer;
+}
 #textViewWrapper {
-
   padding: 8px 10px 7px 10px;
-
 }
 #bookingCellWrapper {
   cursor: pointer;
