@@ -2,20 +2,18 @@
 #logo{
   padding-top: 112px;
   display: block;
-   margin: auto auto 24 auto;
-   margin-bottom: : 112px;
+   margin: auto auto 28 auto;
 }
 #searchBar{
   height: 35px;
   width: 500px;
-
   display: block;
   margin: 0 auto;
 }
 
 input {
-    border: 2px solid #dadada;
-    border-radius: 0px;
+    border: 0px;
+    border-radius: 2px;
     font: 16px arial,sans-serif;
     line-height: 34px;
     height: 44px !important;
@@ -27,11 +25,6 @@ input {
 }
 
 input:focus,input:hover  {
-      box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 11px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
     outline: none;
-    /*
-    border-color: red;
-    box-shadow: 0 0 10px red;
-    */
 }
- 
