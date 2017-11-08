@@ -74,11 +74,12 @@ body{
 /* topBar*/
 #topBar {
   background-color: #9D1418;
+  margin-bottom: 27px;
 }
 #topBarLogo {
   padding: 10 0 10 0;
   display: block;
-  margin: auto auto 28 auto;
+  margin: 0 auto 0 auto;
 }
 /*
 color:
