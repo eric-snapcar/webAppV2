@@ -71,6 +71,15 @@ body{
   line-height: 1.8em;
   font-size:16px;
 }
+/* topBar*/
+#topBar {
+  background-color: #9D1418;
+}
+#topBarLogo {
+  padding: 10 0 10 0;
+  display: block;
+  margin: auto auto 28 auto;
+}
 /*
 color:
 rgb(29, 33, 41)
