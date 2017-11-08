@@ -11,7 +11,7 @@ body{
 #searchBar{
   height: 35px;
   outline: none;
-  margin: auto auto 26 auto;
+  margin: auto auto 24 auto;
   border: 0px;
   border-radius: 2px;
   font: 16px arial,sans-serif;
@@ -53,7 +53,7 @@ body{
 #bookingCellWrapper {
   cursor: pointer;
     display: block;
-    margin: auto auto 21 auto;
+    margin: auto auto 20 auto;
 }
 .titleTextView {
   color: rgb(29, 33, 41);
@@ -74,10 +74,10 @@ body{
 /* topBar*/
 #topBar {
   background-color: #9D1418;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 }
 #topBarLogo {
-  padding: 10 0 10 0;
+  padding: 12 0 11 0;
   display: block;
   margin: 0 auto 0 auto;
 }
