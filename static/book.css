@@ -7,6 +7,19 @@
     overflow: hidden;
         background-color:white;
 }
+#topBar {
+  background-color: #FAFAFA;
+  border-bottom-color:
+rgb(235, 235, 235)
+;
+ padding: 13 0 13 19;
+border-bottom-style:
+solid
+;
+border-bottom-width:
+1px
+;
+}
 .addressView {
   margin-left: 5px;
   border-bottom: 1px solid rgba(0,0,0,0.16);
@@ -37,5 +50,7 @@
   font: 18.5px arial,sans-serif;
 }
 body {
-    background-color: #FBFBFC;
+    /*background-color: #FBFBFC;*/
+      margin : 0;
+      background-color: #FFF;
 }
