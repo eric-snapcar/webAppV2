@@ -4,6 +4,15 @@
   <link rel="stylesheet" type="text/css" href="static/book.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+<script>
+$(document).ready(function(){
+  $("input").on('keyup', function (e) {
+      if (e.keyCode == 13) {
+            alert('TEST')
+      }
+  })
+});
+</script>
 <div id="topBar">
   <img src="static/LogoWhiteBook.png" id="topBarLogo">
 </div>
