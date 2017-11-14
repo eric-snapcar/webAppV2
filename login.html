@@ -8,10 +8,15 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <script>
+function redirect( lastUrlElement ) {
+    var url = document.URL
+    url = url.substring(0,url.lastIndexOf("/"));
+    location.href = url + "/" + lastUrlElement
+}
 $(document).ready(function(){
   $("input").on('keydown', function (e) {
       if (e.keyCode == 13) {
-            alert('TEST')
+        redirect("index.html")
       }
   })
 });
