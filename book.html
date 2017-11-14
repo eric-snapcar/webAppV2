@@ -5,10 +5,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <script>
+function redirect() {
+    // location.href = window.location.pathname +"?film_id="+ document.getElementById("input").value
+    var url = document.URL,
+    shortUrl=url.substring(0,url.lastIndexOf("/"));
+    location.href = shortUrl +"/index.html"
+}
 $(document).ready(function(){
-  $(document).keypress(function(e) {
+  $(document).keydown(function(e) {
     if(e.which == 13) {
-        alert('TEST')
+        redirect()
     }
   });
 });
